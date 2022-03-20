@@ -1,0 +1,24 @@
+#Sun Jun 20 01:31:21 CST 2021
+myeclipseTomcatServer.exam2.1.altContextRoot=/exam2.1
+myeclipseTomcatServer.testWriting.isExploded=true
+myeclipseTomcatServer.testWriting.shouldBackup=false
+myeclipseTomcatServer.testWriting.altContextRoot=/testWriting
+myeclipseTomcatServer.exam2.1.shouldBackup=false
+myeclipseTomcatServer.exam2.1.isDeployed=true
+myeclipseTomcatServer.testWriting.shouldOverwrite=false
+myeclipseTomcatServer.exam2.1.shouldOverwrite=false
+eclipse.preferences.version=1
+myeclipseTomcatServer.testWriting.type=WebDeployment
+myeclipseTomcatServer.testWriting.IEARProjectName=
+myeclipseTomcatServer.exam2.1.IEARProjectName=
+myeclipseTomcatServer.testWriting.isDeployed=true
+myeclipseTomcatServer.testWriting.deployIsOverProject=false
+myeclipseTomcatServer.exam2.1.deploymentPath=D\:\\Workspaces\\.metadata\\.me_tcat\\webapps\\exam2.1
+myeclipseTomcatServer.testWriting.deploymentPath=D\:\\Workspaces\\.metadata\\.me_tcat\\webapps\\testWriting
+myeclipseTomcatServer.exam2.1.contextRoot=/exam2.1
+myeclipseTomcatServer.exam2.1.isUptoDate=true
+myeclipseTomcatServer.exam2.1.isExploded=true
+myeclipseTomcatServer.exam2.1.deployIsOverProject=false
+myeclipseTomcatServer.testWriting.contextRoot=/testWriting
+myeclipseTomcatServer.exam2.1.type=WebDeployment
+myeclipseTomcatServer.testWriting.isUptoDate=true
