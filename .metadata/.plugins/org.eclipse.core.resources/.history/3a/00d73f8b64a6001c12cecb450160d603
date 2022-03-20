@@ -1,0 +1,70 @@
+package test;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.StreamTokenizer;
+import java.util.ArrayList;
+
+public class Score {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		ArrayList<Student> stus = new ArrayList<Student>();
+		BufferedReader reader =new BufferedReader(new InputStreamReader(System.in));
+		StreamTokenizer strToken=new StreamTokenizer(reader);
+		strToken.nextToken();
+		int stuNum=(int) strToken.nval;
+		System.out.println(stuNum);
+		for (int i = 0; i < stuNum; i++) {
+			strToken.nextToken();
+			int scoreNum=(int) strToken.nval;
+			int scores[]=new int[scoreNum];
+			for (int j = 0; j < scoreNum; j++) {
+				strToken.nextToken();
+				scores[j]=(int) strToken.nval;
+			}
+			
+			stus.get(i).setAve(calculate(scores));
+			System.out.println(stus.get(i).getAve());
+		}
+	}
+
+	private static double calculate(int score[]) {
+		// TODO Auto-generated method stub
+		int sum=0;
+		for (int i = 0; i < score.length; i++) {
+			sum+=score[i];
+		}
+		int max=score[0];
+		for (int i = 1; i < score.length; i++) {
+			if (score[i]>max) {
+				max=score[i];
+			}
+		}
+		int min=score[0];
+		for (int i = 1; i < score.length; i++) {
+			if (score[i]<min) {
+				min=score[i];
+			}
+		}
+		double ave=(double)(sum-max-min)/(score.length-2);
+		return ave;
+	}
+}
+
+class Student {
+	public double ave;
+
+	public Student() {
+		super();
+	}
+
+	public double getAve() {
+		return ave;
+	}
+
+	public void setAve(double ave) {
+		this.ave = ave;
+	}
+}

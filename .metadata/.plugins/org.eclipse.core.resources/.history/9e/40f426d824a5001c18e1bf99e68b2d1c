@@ -1,0 +1,21 @@
+package test;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class test3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		String numString=scanner.next();
+		String printString="";
+		for (int i = 0; i <numString.length(); i++) {
+			printString+=PY(numString.charAt(i));
+			
+		}
+		System.out.println(printString);
+	}
+	
+
+}
