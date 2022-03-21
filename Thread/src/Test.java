@@ -1,5 +1,6 @@
 public class Test {
 	public static void main(String[] args) {
+		
 		System.out.println("Ö÷Ïß³ÌID:" + Thread.currentThread().getId());
 
 		MyThread thread1 = new MyThread("thread1");
