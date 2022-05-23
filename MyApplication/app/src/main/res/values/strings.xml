@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">
+        My Application
+    </string>
+    <string name="hello">
+        What the hell ?
+    </string>
+    <string name="button">CLICK</string>
+    <string name="newStr">Stu...pid</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application7</string>
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="sendBroadcast">发送广播</string>
+    <string name="braodcastMsg">BraodcastMsg</string>
+    <string name="sendEmail">发送邮件</string>
+</resources>

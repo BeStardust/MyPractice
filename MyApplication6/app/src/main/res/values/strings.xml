@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="personal"></string>
+    <string name="theSecond">theSecond</string>
+    <string name="LoginedPage">MyApp</string>
+    <string name="accountTipString">账 号 ：</string>
+    <string name="passwdTipString">密 码 ：</string>
+    <string name="loginButton">登 录</string>
+    <string name="hello">hello, </string>
+    <string name="r1c1">Table</string>
+    <string name="r1c2">Layout</string>
+    <string name="r2c1">Table</string>
+    <string name="r2c2">Layout</string>
+    <string name="_1">_1</string>
+    <string name="_2">_2</string>
+    <string name="_3">_3</string>
+    <string name="sharedpreferences">SharedPreferences</string>
+    <string name="CreateDB">CreateDB</string>
+    <string name="DeleteDB">DeleteDB</string>
+    <string name="ID">I D  : </string>
+    <string name="NAME">NAME : </string>
+    <string name="add">ADD</string>
+    <string name="delete">DELETE</string>
+    <string name="prepiece">PrePiece</string>
+    <string name="nextpiece">NextPiece</string>
+    <string name="opendb">OpenDB</string>
+    <string name="closedb">CloseDB</string>
+    <string name="update">Update</string>
+
+</resources>

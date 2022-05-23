@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;ttt&apos;&#x0D;&#x0A;- Original project: &apos;ttt&apos;&#x0D;&#x0A;- Original element: &apos;javax.servlet-api-62.jar&apos;" description="Delete element" element1="javax.servlet-api-62.jar" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1629038647968" subPackages="false" version="1.0"/>
-</session>
